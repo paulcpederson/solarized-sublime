@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Ian Hill</string>
+	<string>Paul C Pederson</string>
 	<key>comment</key>
-	<string>A widget theme for the UI components of the Soda Light theme.</string>
+	<string>A widget theme for the UI components of the Solarized Light theme.</string>
 	<key>name</key>
-	<string>Soda Light - Widget Theme</string>
+	<string>Solarized Light - Widget Theme</string>
 	<key>settings</key>
 	<array>
 		<dict>
