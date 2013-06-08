@@ -1,5 +1,7 @@
 # Solarized Theme
 
+![dark](https://f.cloud.github.com/assets/1031758/626866/c6cfa796-cfd6-11e2-83af-15828d6a858e.png)
+
 A Solarized theme (and color scheme) for Sublime Text 2.
 
 ## Installation
