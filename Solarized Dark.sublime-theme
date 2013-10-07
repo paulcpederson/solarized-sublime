@@ -108,7 +108,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -187,7 +187,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -312,7 +312,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - Soda/Soda Dark/status-bar-background.png",
+        "layer0.texture": "Theme - Solarized/Solarized Dark/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [12, 12, 8, 12]
