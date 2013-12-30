@@ -398,7 +398,7 @@
 			<key>name</key>
 			<string>CSS: !Important (red)</string>
 			<key>scope</key>
-			<string>keyword.other.important.css</string>
+			<string>keyword.other.important.css, keyword.other.important.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -472,7 +472,7 @@
 			<key>name</key>
 			<string>CSS: #id (yellow)</string>
 			<key>scope</key>
-			<string>source.css entity.other.attribute-name.id</string>
+			<string>source.css entity.other.attribute-name.id, source.scss entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
