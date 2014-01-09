@@ -294,15 +294,16 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/tooltip.png",
-        "layer0.inner_margin": [1, 1],
-        "layer0.opacity": 0.95,
-        "content_margin": [3, 3]
+        "layer0.texture": "",
+        "layer0.tint": [79,91,103],
+        "layer0.inner_margin": [1,1],
+        "layer0.opacity": 1,
+        "content_margin": [4,4]
     },
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [0, 0, 0]
+        "color": [239,241,245]
     },
 
 //
@@ -502,19 +503,27 @@
     // Default button state
     {
         "class": "button_control",
-        "content_margin": [6, 5, 6, 6],
-        "min_size": [75, 0],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-large.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 6]
+        "content_margin": [4,8,4,8],
+        "min_size": [64,0],
+        "layer0.texture": "",
+        "layer0.opacity": 1,
+        "layer0.tint": [35,40,48],
+        "layer0.inner_margin": [8,8]
+    },
+    // Hover button state
+    {
+        "class": "button_control",
+        "attributes": ["hover"],
+        "layer0.texture": "",
+        "layer0.tint": [35,40,48]
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-large-on.png"
+        "layer0.texture": "",
+        "layer0.tint": [28,31,38]
     },
-
 //
 // TEXT INPUT FIELD
 //
@@ -522,10 +531,10 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/text-field.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [4, 5, 4, 3],
-        "content_margin": [3, 3]
+        "layer0.texture": "",
+        "layer0.tint": [34, 40, 48],
+        "layer0.opacity": 1,
+        "content_margin": [4,3,0,3]
     },
 
 //
@@ -535,30 +544,21 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/panel-background.png",
-        "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0,
-        "content_margin": [2, 3, 2, 1]
+        "layer0.texture": "",
+        "layer0.inner_margin": [0,0],
+        "layer0.opacity": 1,
+        "layer0.tint": [28,31,38],
+        "content_margin": 0
     },
     // Quick panel background
     {
         "class": "overlay_control",
-        "settings": ["!soda_retina_fix"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/quick-panel-background.png",
-        "layer0.inner_margin": [12, 6, 12, 15],
-        "layer0.opacity": 1.0,
-        "layer1.texture": "Theme - Solarized/Solarized Dark/quick-panel-sections.png",
-        "layer1.inner_margin": [12, 40, 12, 19],
-        "layer1.opacity": 1.0,
-        "content_margin": [11, 8, 11, 17]
-    },
-    // Quick panel background (Retina fix)
-    {
-        "class": "overlay_control",
-        "settings": ["soda_retina_fix"],
-        "layer0.tint": [67, 67, 67],
-        "layer0.opacity": 1.0,
-        "content_margin": [6, 8, 6, 6]
+        "layer0.opacity": 1,
+        "layer1.texture": "",
+        "layer1.tint": [28,31,38],
+        "layer1.inner_margin": [0,0,0,0],
+        "layer1.opacity": 1,
+        "content_margin": 0
     },
 
 //
@@ -567,40 +567,42 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [5, 2],
-        "layer0.tint": [33, 33, 33],
-        "layer0.opacity": 1.0,
+        "row_padding": 8,
+        "layer0.tint": [0,0,0],
+        "layer0.opacity": 1,
         "dark_content": true
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/quick-panel-row.png",
-        "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0
+        "layer0.texture": "",
+        "layer0.tint": [51, 61, 70],
+        "layer0.inner_margin": 8,
+        "layer0.opacity": 1
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/quick-panel-row-selected.png"
+        "layer0.texture": "",
+        "layer0.tint": [223, 225, 232]
     },
     {
         "class": "quick_panel_label",
-        "fg": [210, 210, 210, 255],
-        "match_fg": [126, 199, 239, 255],
-        "selected_fg": [255, 255, 255, 255],
-        "selected_match_fg": [166, 229, 255, 255]
+        "fg": [167,173,186,255],
+        "match_fg": [192, 197, 206,255],
+        "selected_fg": [79,91,103,255],
+        "selected_match_fg": [28,31,38,255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [130, 130, 130, 255],
-        "match_fg": [220, 220, 220, 255],
-        "selected_fg": [175, 175, 175, 255],
-        "selected_match_fg": [220, 220, 220, 255]
+        "fg": [101,115,126,255],
+        "match_fg": [137, 145, 155,255],
+        "selected_fg": [101,115,126,255],
+        "selected_match_fg": [79,91,102,255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [126, 199, 239, 255],
-        "selected_fg": [166, 229, 255, 255]
+        "fg": [101,115,126,255],
+        "selected_fg": [101,115,126,255]
     },
 
 //
@@ -609,14 +611,15 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/quick-panel-row.png",
-        "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0
+        "layer0.texture": "",
+        "layer0.tint": [51, 61, 70],
+        "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/quick-panel-row-selected.png"
+        "layer0.texture": "",
+        "layer0.tint": [223, 225, 232]
     },
 
 //
@@ -625,31 +628,32 @@
 
     {
         "class": "popup_control",
-        "content_margin": [2, 2],
-        "layer0.tint": [30, 30, 30],
-        "layer0.opacity": 1.0
+        "content_margin": [0,0],
+        "layer0.tint": [52,61,70],
+        "layer0.opacity": 1
     },
     {
         "class": "auto_complete",
-        "row_padding": [4, 2]
+        "row_padding": [4,2]
     },
     {
         "class": "auto_complete_label",
-        "fg": [140, 140, 140],
-        "match_fg": [220, 220, 220],
-        "selected_fg": [180, 180, 180],
-        "selected_match_fg": [245, 245, 245]
+        "fg": [101,115,126,255],
+        "match_fg": [192,197,206,255],
+        "selected_fg": [167,173,186,255],
+        "selected_match_fg": [192,197,206,255]
     },
     {
         "class": "table_row",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/autocomplete-row-selected.png",
-        "layer0.opacity": 0.0,
-        "layer0.inner_margin": [3, 1]
+        "layer0.texture": "",
+        "layer0.tint":[79,91,103],
+        "layer0.opacity": 0,
+        "layer0.inner_margin": [3,1]
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1
     },
 
 //
@@ -659,51 +663,54 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-group-middle.png",
-        "layer0.inner_margin": [6, 6],
-        "layer0.opacity": 1.0,
-        "content_margin": [3, 3]
+        "layer1.texture": "",
+        "layer1.opacity": 0,
+        "layer1.tint":[35,40,48],
+        "content_margin": 7
     },
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-group-middle-on.png"
+        "layer0.opacity": 0
     },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-group-left.png",
-        "content_margin": [4, 3, 3, 3]
+        "layer0.texture": ""
+    },
+    // Button group left
+    {
+        "class": "icon_button_control",
+        "attributes": ["left"],
+        "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
-        "attributes": ["left", "selected"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-group-left-on.png"
+        "attributes": ["left","selected"],
+        "layer0.texture": ""
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-group-right.png",
-        "content_margin": [3, 3, 4, 3]
+        "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
-        "attributes": ["right", "selected"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-group-right-on.png"
+        "attributes": ["right","selected"],
+        "layer0.texture": ""
     },
     // Button single
     {
         "class": "icon_button_control",
-        "attributes": ["left", "right"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-small.png",
-        "content_margin": [4, 3]
+        "attributes": ["left","right"],
+        "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
-        "attributes": ["left", "right", "selected"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/btn-small-on.png"
+        "attributes": ["left","right","selected"],
+        "layer0.texture": ""
     },
 
 //
@@ -713,38 +720,42 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-regex-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/regex.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
+
     },
     {
         "class": "icon_regex",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-regex-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     },
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-case-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/casesens.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_case",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-case-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-word-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/wholeword.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_whole_word",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-word-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     },
 
 //
@@ -754,67 +765,71 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-context-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/context.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_context",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-context-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-buffer-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/buffer.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-buffer-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     },
 
 //
 // BOTTOM PANEL ICONS - GROUP 2
 //
-
-    // Reverse search direction button
+    // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-reverse-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/reverse.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_reverse",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-reverse-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     },
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-wrap-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/wrap.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_wrap",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-wrap-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-selection-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/selection.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_in_selection",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-selection-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     },
 
 //
@@ -824,14 +839,15 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-preserve-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/casesens.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-preserve-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     },
 
 //
@@ -841,14 +857,15 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-highlight-off.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "layer0.texture": "Theme - Solarized/Solarized Dark/highlight.png",
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_highlight",
-        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/icon-highlight-on.png"
+        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+        "layer0.tint": [255,255,255]
     }
 
 ]
