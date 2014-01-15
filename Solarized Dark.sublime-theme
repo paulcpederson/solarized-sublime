@@ -5,7 +5,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/tabset-background.png",
+        "layer0.tint": [0, 43, 54],
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
         "content_margin": [-4, 0, -4, 0],
