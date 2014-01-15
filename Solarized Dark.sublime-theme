@@ -1,6 +1,23 @@
 [
 //
 // TABS (REGULAR)
+//- base04    "layer0.tint": [0,  33,  42],  (status bar, sidebar)
+//- base03    "layer0.tint": [0,  43,  54],  (text editor background)
+//- base02    "layer0.tint": [7,  54,  66],  (line hightlight)
+//- base01   "layer0.tint": [88, 110, 117],  (comment)
+//- base00  "layer0.tint": [101, 123, 131],  (recessed body text)
+//- base0   "layer0.tint": [131, 148, 150],  (main text color)
+//- base1   "layer0.tint": [147, 161, 161],
+//- base2   "layer0.tint": [238, 232, 213],
+//- base3   "layer0.tint": [253, 246, 227],
+//- yellow  "layer0.tint": [181, 137,   0],
+//- orange  "layer0.tint": [203,  75,  22],
+//- red     "layer0.tint": [220,  50,  47],
+//- magent  "layer0.tint": [211,  54, 130],
+//- violet  "layer0.tint": [108, 113, 196],
+//- blue     "layer0.tint": [38, 139, 210],
+//- cyan     "layer0.tint": [42, 161, 152],
+//- green   "layer0.tint": [133, 153,   0],
 //
     // Tab set
     {
