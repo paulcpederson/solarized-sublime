@@ -414,37 +414,37 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/group-closed.png",
+        "layer0.texture": "Theme - Solarized/Solarized Dark/fold-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/group-closed-hover.png"
+        "layer0.texture": "Theme - Solarized/Solarized Dark/fold-closed-hover.png"
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/group-closed-selected.png"
+        "layer0.texture": "Theme - Solarized/Solarized Dark/fold-closed-hover.png"
     },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/group-open.png"
+        "layer0.texture": "Theme - Solarized/Solarized Dark/fold-open.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/group-open-hover.png"
+        "layer0.texture": "Theme - Solarized/Solarized Dark/fold-open-hover.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized/Solarized Dark/group-open-selected.png"
+        "layer0.texture": "Theme - Solarized/Solarized Dark/fold-open-hover.png"
     },
 
 //
