@@ -281,7 +281,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/status-bar-background.png",
+        "layer0.tint": [0,  33,  42],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [12, 12, 8, 12]
@@ -307,7 +307,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/sidebar-bg.png",
+        "layer0.tint": [0,  33,  42],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
         "content_margin": [0, 0, 1, 0]
