@@ -492,9 +492,9 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
-        "layer0.tint": [34, 40, 48],
+        "layer0.tint": [0,  33,  42],
         "layer0.opacity": 1,
-        "content_margin": [4,3,0,3]
+        "content_margin": [4,3,3,3]
     },
 
 //
@@ -507,7 +507,7 @@
         "layer0.texture": "",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer0.tint": [28,31,38],
+        "layer0.tint": [0,  33,  42],
         "content_margin": 0
     },
     // Quick panel background
@@ -515,7 +515,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         "layer1.texture": "",
-        "layer1.tint": [28,31,38],
+        "layer1.tint": [0,  33,  42],
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
         "content_margin": 0
@@ -535,7 +535,7 @@
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [51, 61, 70],
+        "layer0.tint": [0,  33,  42],
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -543,7 +543,7 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [223, 225, 232]
+        "layer0.tint": [238, 232, 213]
     },
     {
         "class": "quick_panel_label",
@@ -572,14 +572,14 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [51, 61, 70],
+        "layer0.tint": [0,  33,  42],
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [223, 225, 232]
+        "layer0.tint": [238, 232, 213]
     },
 
 //
